@@ -1,0 +1,14 @@
+.item-detail h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .item-detail p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .carousel img {
+    border-radius: 10px;
+  }
+  

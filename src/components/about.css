@@ -1,0 +1,66 @@
+.about-page {
+    min-height: 100vh;
+}
+.about-section {
+    background-color: #ffffffb5; 
+    padding: 2rem 0;
+    border-radius: 10px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    color: #343a40; 
+    padding: 2rem;
+  }
+  
+  .about-section p {
+    font-size: 1.25rem;
+    color: #495057; 
+    line-height: 1.8;
+    text-align: justify;
+    padding: 2rem;
+  }
+
+  .about-section img {
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5));
+  }
+  
+  #button {
+    background-color: #950000; 
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    cursor: pointer;
+    margin: 2rem;
+  }
+  
+  #button:hover {
+    background-color: #5b0000;
+    transform: translateY(-2px);
+  }
+  
+  #button:active {
+    background-color: #540202;
+    transform: translateY(1px);
+  }
+  
+  @media (max-width: 768px) {
+    .about-section h2 {
+      font-size: 2rem;
+    }
+  
+    .about-section p {
+      font-size: 0.95rem;
+    }
+  }
+  

@@ -1,0 +1,28 @@
+.footer a {
+  text-decoration: none;
+  transition: color 0.2s;
+  color: rgb(254, 119, 0);
+  font-size: larger;
+  padding: 5px;
+}
+
+.footer {
+  background-color: rgb(36, 39, 43);
+  color: #cccccc96;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer a:hover {
+  color: #ccc;
+}
+
+.footer h5 {
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
+}

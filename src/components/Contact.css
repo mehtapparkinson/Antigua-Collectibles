@@ -1,0 +1,68 @@
+.contact-page {
+    background-image: url('./contact-bg.png'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .contact-container {
+    background-color: rgba(255, 255, 255, 0.491);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 15px;
+  }
+  
+  .contact-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #1c1868 !important;
+  }
+  
+  .contact-container .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #1c1868;
+    border: 1px solid #ced4da;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .contact-container .form-control::placeholder {
+    color: #06007b75;
+  }
+  
+  .contact-container .form-label {
+    font-weight: 500;
+    color: #08036b;
+  }
+  
+  .contact-container .btn-dark {
+    background-color: #212529;
+    border-color: #212529;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-container .btn-dark:hover {
+    background-color: #343a40;
+    border-color: #343a40;
+  }
+  
+  .contact-container .btn-dark:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
+  }
+
+  .contact-container .btn-submit {
+    display: block; 
+    margin: 20px auto 0 auto;
+    padding: 10px 30px;
+    background-color: #28238a;
+  }
+  
+  

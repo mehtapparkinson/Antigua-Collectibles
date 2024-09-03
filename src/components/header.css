@@ -1,0 +1,30 @@
+.navbar-custom {
+  background-color: #00000060;
+  position: sticky;
+}
+
+.navbar-custom .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-custom .navbar-brand img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.navbar-custom .navbar-brand span {
+  color: #ffffffc1;
+  font-weight: bold;
+}
+
+.navbar-custom .nav-link {
+  color: #fff !important;
+  margin-left: 20px;
+}
+
+.navbar-custom .container-fluid {
+  padding-left: 20px;
+  padding-right: 20px;
+}
