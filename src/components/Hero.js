@@ -14,7 +14,7 @@ const Hero = () => {
           transition={{ duration: 2 }}
           className="mb-4"
         >
-          Discover Timeless Antiques
+        Uncover Timeless Beauty in New and Antique Collections
         </motion.h1>
         <motion.div
           initial={{ opacity: 0 }}
