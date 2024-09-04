@@ -86,6 +86,7 @@
   gallery-page {
     background-image: url("./gallery-bg-mobile.png") !important;
     background-size: cover !important;
-    background-attachment: scroll !important; 
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
   }
 }
