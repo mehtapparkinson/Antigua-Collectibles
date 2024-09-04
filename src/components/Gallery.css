@@ -84,8 +84,6 @@
 }
 @media (max-width: 768px) {
     .gallery-page {
-      background-size: cover;
-      background-position: top center;
-      padding: 20px 0; 
+      background-image: url("./gallery-bg-mobile.png");
     }
   }
