@@ -1,20 +1,28 @@
+/* Apply background image for larger screens (desktops/laptops) */
 .gallery-page {
-  background-image: url("./gallery-bg.png");
-  background-size: cover;
-  background-attachment: fixed;
+  position: relative;
   min-height: 100vh;
   padding: 20px;
+  background-image: url('./gallery-bg.png'); /* Desktop background image */
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed; /* Ensure background scrolls */
 }
+
+
+/* Ensure content is above the background */
+.gallery-container {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
 .gallery-page h2 {
   margin-top: 100px !important;
   color: #ffffff !important;
   text-align: center;
   font-size: 3rem !important;
-}
-
-.gallery-container {
-  padding: 0 15px;
 }
 
 .gallery-grid {
@@ -50,6 +58,7 @@
   height: auto;
   display: block;
   transition: transform 0.3s ease;
+  filter: drop-shadow(0 0.8rem 0.4rem rgba(0, 0, 0, 0.702));
 }
 
 .gallery-item .card {
@@ -82,11 +91,13 @@
   font-size: 0.875rem;
   color: #fff;
 }
+/* Media query for mobile screens (max-width 768px) */
 @media (max-width: 768px) {
-  gallery-page {
-    background-image: url("./gallery-bg-mobile.png") !important;
-    background-size: cover !important;
-    background-attachment: fixed !important;
-    background-repeat: no-repeat !important;
+  .gallery-page {
+    background-image: url('./long.png');
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: top center; 
+    background-attachment: scroll;
   }
 }
