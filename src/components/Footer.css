@@ -26,3 +26,17 @@
 .footer p {
   margin-bottom: 0.5rem;
 }
+@media (max-width: 768px) {
+    .footer {
+      padding: 15px 0; 
+    }
+  
+    .footer p {
+      font-size: 0.7rem; 
+    }
+  
+    .footer a {
+      font-size: 0.8rem;
+      padding: 3px; 
+    }
+  }
