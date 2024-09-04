@@ -1,6 +1,7 @@
 .navbar-custom {
   background-color: #000000ab;
   position: sticky;
+  font-size: 0.8rem;
 }
 
 .navbar-custom .navbar-brand {
@@ -17,6 +18,7 @@
 .navbar-custom .navbar-brand span {
   color: #ffffffc1;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .navbar-custom .nav-link {
