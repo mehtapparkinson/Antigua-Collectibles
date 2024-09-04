@@ -21,7 +21,6 @@ import image16 from './imgs/16.png';
 import image17 from './imgs/17.png';
 import image18 from './imgs/18.png';
 
-import { Link } from 'react-router-dom';
 
 const Gallery = () => {
     const products = [
@@ -69,7 +68,7 @@ const Gallery = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.3 }}
             >
-            <Link className='link' to={`/item/${product.id}`}>
+            
               <Card>
                 <Card.Img variant="top" src={product.image} />
                 <Card.Body>
@@ -77,7 +76,7 @@ const Gallery = () => {
                   <Card.Text>{product.description}</Card.Text>
                 </Card.Body>
               </Card>
-           </Link>
+          
             </motion.div>
           ))}
         </div>
