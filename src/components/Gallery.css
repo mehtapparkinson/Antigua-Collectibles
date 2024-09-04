@@ -82,3 +82,10 @@
   font-size: 0.875rem;
   color: #fff;
 }
+@media (max-width: 768px) {
+    .gallery-page {
+      background-size: cover;
+      background-position: top center;
+      padding: 20px 0; 
+    }
+  }

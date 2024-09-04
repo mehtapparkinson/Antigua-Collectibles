@@ -65,4 +65,32 @@
     background-color: #28238a;
   }
   
+  @media (max-width: 768px) {
+    .contact-page {
+      background-size: cover;
+      background-position: top center;
+      padding: 20px 0; 
+    }
+    .contact-container {
+      padding: 30px; 
+      text-align: center;
+    }
+  
+    .contact-container h2 {
+      font-size: 1.5rem; /* Reduce heading size */
+    }
+  
+    .contact-container p {
+      font-size: 0.8rem;
+    }
+  
+    .contact-container .form-control {
+      padding: 10px;
+    }
+  
+    .contact-container .btn-dark {
+      font-size: 0.9rem; 
+     
+    }
+  }
   
