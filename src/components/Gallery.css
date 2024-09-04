@@ -85,5 +85,7 @@
 @media (max-width: 768px) {
     .gallery-page {
       background-image: url("./gallery-bg-mobile.png");
+      background-size: cover;
+      background-attachment: fixed;
     }
   }
