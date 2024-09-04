@@ -53,14 +53,40 @@
     background-color: #540202;
     transform: translateY(1px);
   }
-  
   @media (max-width: 768px) {
+    .about-section {
+        padding: 1rem 0; 
+        margin: 100px;
+        text-align: center;
+    }
+
     .about-section h2 {
-      font-size: 2rem;
+        font-size: 2rem; 
+        padding: 0.5rem;
     }
-  
+
     .about-section p {
-      font-size: 0.95rem;
+        font-size: 1rem; 
+        padding: 1rem; 
     }
-  }
+
+    #button {
+        font-size: 0.9rem; 
+    }
+}
+
+@media (max-width: 576px) {
+    .about-section h2 {
+        font-size: 1.75rem; 
+    }
+
+    .about-section p {
+        font-size: 0.9rem; 
+        padding: 0.2rem;
+    }
+
+    #button {
+        font-size: 0.8rem;
+    }
+}
   
