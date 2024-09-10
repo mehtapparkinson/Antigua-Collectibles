@@ -12,9 +12,9 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 2 }}
-          className="mb-4"
+          className="mb-4 special-elite-regular"
         >
-        Uncover Timeless Beauty in New and Antique Collections
+        Discover the Charm of Vintage 
         </motion.h1>
         <motion.div
           initial={{ opacity: 0 }}
